@@ -17,25 +17,25 @@
   <div class="container">
     <h1>Formular</h1>
     <div class="col-6">
-      <form>
+      <form method="POST">
       <div class="mb-3">
           <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" aria-describedby="name">
+          <input type="text" class="form-control" id="name" aria-describedby="name" name="name">
           <div id="name" class="form-text">Geben Sie Ihren Namen ein</div>
         </div>
         <div class="mb-3">
           <label for="vorname" class="form-label">Vorname</label>
-          <input type="text" class="form-control" id="vorname" aria-describedby="vorname">
+          <input type="text" class="form-control" id="vorname" aria-describedby="vorname" name="vorname">
           <div id="vorname" class="form-text">Geben Sie Ihren Vornamen ein</div>
         </div>
         <div class="mb-3">
           <label for="adresse" class="form-label">Adresse</label>
-          <input type="text" class="form-control" id="adresse" aria-describedby="adresse">
+          <input type="text" class="form-control" id="adresse" aria-describedby="adresse" name="adresse">
           <div id="adresse" class="form-text">Geben Sie Ihre Adresse ein</div>
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">E-Mail</label>
-          <input type="email" class="form-control" id="email" aria-describedby="email">
+          <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
           <div id="email" class="form-text">Geben Sie Ihre E-Mail ein</div>
         </div>
         <button type="submit" class="btn btn-primary">Speichern</button>
